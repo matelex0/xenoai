@@ -1,150 +1,123 @@
 <div align="center">
-  <img src="https://socialify.git.ci/alex1dev0/xenoai/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Transparent&theme=Auto" alt="xenoai" width="500" />
+  <img src="assets/logo.png" alt="XENOAI Logo" width="300" />
+
+  # 🌌 XENOAI
+  
+  **The future of conversation starts here.**
+
+  [![Status](https://img.shields.io/badge/status-In%20Development-orange?style=for-the-badge&logo=git&logoColor=white)](https://github.com/matelex0/xenoai)
+  [![License](https://img.shields.io/github/license/matelex0/xenoai?style=for-the-badge&color=blue)](LICENSE)
+  [![Stars](https://img.shields.io/github/stars/matelex0/xenoai?style=for-the-badge&color=yellow)](https://github.com/matelex0/xenoai/stargazers)
+  [![Issues](https://img.shields.io/github/issues/matelex0/xenoai?style=for-the-badge&color=red)](https://github.com/matelex0/xenoai/issues)
+
+  <p align="center">
+    <a href="#-features">✨ Features</a> •
+    <a href="#-tech-stack">🛠️ Tech Stack</a> •
+    <a href="#-roadmap">🗺️ Roadmap</a> •
+    <a href="#-getting-started">🚀 Getting Started</a>
+  </p>
 </div>
+
+---
+
+## 🛸 About The Project
+
+**XENOAI** is a next-generation public chatbot interface designed with a sleek, space-themed aesthetic. It aims to democratize AI access by providing a free, open entry point to advanced conversational models.
+
+Unlike traditional platforms, **XENOAI** allows anyone to start chatting immediately without barriers.
+
+> "Innovation is not just about the technology, it's about the experience."
+
+---
+
+## ✨ Features
+
+- **🔓 No Login Required**: Start chatting instantly. Privacy by default.
+- **💾 Optional Persistence**: Register an account only if you want to save and sync your chat history.
+- **🎨 Innovative Design**: A deeply immersive "Dark Space" UI with dynamic canvas animations and shooting stars.
+- **🤖 Powered by g4f**: Leveraging the [GPT4Free](https://github.com/xtekky/gpt4free) project to provide accessible AI intelligence.
+- **📱 Fully Responsive**: Optimized for desktop, tablet, and mobile devices.
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend (Current)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+### Backend (Planned)
+![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
+
+### AI Core
+![g4f](https://img.shields.io/badge/AI-g4f-blueviolet?style=for-the-badge)
+
+---
+
+## 🗺️ Roadmap
+
+### 🌑 Phase 1: UI/UX (Frontend) - *In Progress*
+- [x] Design Landing Interface (Space Theme)
+- [x] Implement Dynamic Star Background
+- [x] Create Responsive Input & Layout
+- [ ] Develop Chat Interface Transition
+- [ ] Add Message Bubbles & Typing Effects
+
+### 🌒 Phase 2: Core Logic (JS)
+- [ ] Connect to `g4f` API (or Proxy)
+- [ ] Handle Local Session History
+- [ ] Markdown Rendering for AI Responses
+
+### 🌓 Phase 3: Backend & Auth
+- [ ] Set up Laravel Backend
+- [ ] Implement User Registration/Login System
+- [ ] Database Integration for Chat Persistence
+
+### 🌔 Phase 4: Advanced Features
+- [ ] Voice Input/Output
+- [ ] Image Generation Support
+- [ ] User Settings & Customization Panel
+
+---
+
+## 🚀 Getting Started
+
+To run the frontend locally:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/matelex0/xenoai.git
+   ```
+
+2. **Navigate to project directory**
+   ```bash
+   cd xenoai
+   ```
+
+3. **Start a local server** (Python example)
+   ```bash
+   python -m http.server 8000
+   ```
+
+4. **Explore**
+   Open `http://localhost:8000` in your browser.
+
+---
+
+## 📈 Star History
+
+<a href="https://star-history.com/#matelex0/xenoai&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=matelex0/xenoai&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=matelex0/xenoai&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=matelex0/xenoai&type=Date" />
+ </picture>
+</a>
+
+---
 
 <div align="center">
-
-![License](https://img.shields.io/badge/License-Alex1Dev-blue?style=flat-square) ![Top Language](https://img.shields.io/github/languages/top/alex1dev0/xenoai?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/alex1dev0/xenoai?style=flat-square) ![Issues](https://img.shields.io/github/issues/alex1dev0/xenoai?style=flat-square) ![Stars](https://img.shields.io/github/stars/alex1dev0/xenoai?style=flat-square) 
-
-<p align="center">
-  <em>Developed with the software and tools below.</em>
-</p>
-
-[![contributors](https://img.shields.io/github/contributors/alex1dev0/xenoai?style=flat-square)](https://github.com/alex1dev0/xenoai/graphs/contributors)
-[![forks](https://img.shields.io/github/forks/alex1dev0/xenoai?style=flat-square)](https://github.com/alex1dev0/xenoai/network/members)
-[![stars](https://img.shields.io/github/stars/alex1dev0/xenoai?style=flat-square)](https://github.com/alex1dev0/xenoai/stargazers)
-
+  <sub>Built with 💜 by Matelex.</sub>
 </div>
-
----
-
-# XenoAI - Chat Interface
-
-A modern, responsive, and lightweight chat interface built with PHP, SQLite, and vanilla JavaScript, designed to interact with local LLMs (Large Language Models) via Ollama.
-
-## Table of Contents
-
-- [Languages](#languages)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Configuration](#configuration)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Languages
-
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
-
-## Features
-
-- **Local AI Integration**: Seamlessly connects to Ollama (default model: `qwen2.5:1.5b-instruct-q4_K_M`) for privacy-focused AI interactions.
-- **Modern UI/UX**: 
-  - Glassmorphism design with dynamic background effects.
-  - Fully responsive layout (mobile-first approach) with swipe gestures.
-  - Smooth typing indicators and real-time streaming responses (SSE).
-  - Markdown support with code highlighting.
-- **Chat Management**:
-  - Create multiple independent conversations.
-  - Sidebar history with auto-generated titles.
-  - Rename and delete chat capabilities.
-- **Data Persistence**:
-  - Uses SQLite for robust, server-less data storage.
-  - Automatic database creation and initialization on first run.
-- **Performance**:
-  - No heavy frameworks (Vanilla JS, PHP).
-  - Efficient asset caching.
-  - Device-based session management.
-
-## Getting Started
-
-### Prerequisites
-
-- **PHP 8.0+** (with `sqlite3` and `pdo_sqlite` extensions enabled).
-- **Web Server** (Apache, Nginx, or PHP built-in server).
-- **Ollama** running locally (default port: `11434`).
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/alex1dev0/xenoai.git
-cd xenoai
-```
-
-2. Configure Ollama:
-Ensure your Ollama instance is running and has the required model installed:
-```bash
-ollama pull qwen2.5:1.5b-instruct-q4_K_M
-```
-*Note: You can change the model in `config.php`.*
-
-### Running the App
-
-You can serve the project using PHP's built-in server:
-
-```bash
-php -S localhost:8000
-```
-
-Access `http://localhost:8000` in your browser.
-
-## Configuration
-
-You can customize the application by editing `config.php`.
-
-### Changing the AI Model
-Modify the `model` array in `config.php`:
-```php
-'model' => [
-    'name' => 'llama3', // Change to your preferred model
-    'api_endpoint' => 'http://127.0.0.1:11434/api/chat',
-    'max_tokens' => 1024,
-    // ... other parameters
-],
-```
-
-### Modifying the System Prompt
-Customize the AI's persona in `config.php` under `'session' => 'system_message'`. The default persona is a helpful assistant named XenoAI.
-
-### Logs
-Error logs are stored in `logs/error.log` by default. You can configure logging behavior in the `app` section of `config.php`.
-
-## Project Structure
-
-```text
-/
-├── api/
-│   ├── api.php           # Handles AI model communication (SSE streaming)
-│   ├── chat_manager.php  # CRUD operations for conversations
-│   ├── db.php            # Database connection and schema management
-│   ├── proxy.php         # Central routing for API requests
-│   └── reset.php         # Session reset functionality
-├── assets/
-│   ├── script.js         # Frontend logic (DOM manipulation, Fetch API)
-│   ├── style.css         # Main stylesheet (CSS Variables, Flexbox/Grid)
-│   └── ...               # Images
-├── logs/                 # Application logs
-├── config.php            # Configuration settings
-├── functions.php         # Helper functions
-├── index.php             # Main application entry point
-└── READMEBASE.md         # This file
-```
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
-Created by **Alex1Dev**
