@@ -1,0 +1,163 @@
+<!-- XENOAI Chat Dashboard -->
+<!-- https://github.com/matelex0/xenoai -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XENOAI | Chat Interface</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="chat.css" />
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </head>
+  <body>
+    <canvas id="star-canvas"></canvas>
+
+    <div class="app-layout">
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <img src="../assets/logobig.png" alt="XENOAI" class="sidebar-logo" />
+        </div>
+
+        <button class="new-chat-btn">
+          <i class="ph ph-plus"></i>
+          <span>New Chat</span>
+        </button>
+
+        <div class="history-list">
+          <div class="history-label">Today</div>
+          <div class="history-item active">
+            <i class="ph ph-chat-circle"></i>
+            <span>Project Discussion</span>
+          </div>
+          <div class="history-item">
+            <i class="ph ph-chat-circle"></i>
+            <span>Code Analysis</span>
+          </div>
+        </div>
+
+        <div class="sidebar-footer">
+          <div class="user-profile">
+            <div class="avatar">
+              <i class="ph ph-user"></i>
+            </div>
+            <div class="user-info">
+              <span class="username">Guest User</span>
+              <span class="status">Online</span>
+            </div>
+          </div>
+          <button class="settings-btn" title="Settings">
+            <i class="ph ph-gear"></i>
+          </button>
+        </div>
+      </aside>
+
+      <main class="chat-interface">
+        <header class="chat-header">
+          <div class="mobile-menu-toggle">
+            <i class="ph ph-list"></i>
+          </div>
+          <div class="model-info">
+            <span class="model-name"
+              >XENOAI <span class="badge">BETA</span></span
+            >
+            <span class="connection-status"
+              ><span class="dot"></span> Connected</span
+            >
+          </div>
+          <div class="header-actions"></div>
+        </header>
+
+        <div class="messages-container" id="messages-container">
+          <div class="message system-message">
+            <div class="message-content">
+              <p>Welcome to XENOAI. I am ready to assist you.</p>
+            </div>
+          </div>
+
+          <div class="message user-message">
+            <div class="message-content">
+              <p>Hello! Can you help me with some code?</p>
+            </div>
+            <div class="message-meta">Just now</div>
+          </div>
+
+          <div class="message ai-message">
+            <div class="avatar-ai">
+              <img src="../assets/logo.png" alt="AI" />
+            </div>
+            <div class="message-content">
+              <p>Of course! I'd be happy to help. What are you working on?</p>
+            </div>
+            <div class="message-actions">
+              <button class="action-btn"><i class="ph ph-copy"></i></button>
+              <button class="action-btn">
+                <i class="ph ph-thumbs-up"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="input-area-wrapper">
+          <div class="suggestions-bar">
+            <button class="suggestion-chip">
+              <i class="ph ph-code"></i> Write a function
+            </button>
+            <button class="suggestion-chip">
+              <i class="ph ph-lightbulb"></i> Explain concept
+            </button>
+            <button class="suggestion-chip">
+              <i class="ph ph-bug"></i> Debug code
+            </button>
+          </div>
+
+          <div class="input-container">
+            <textarea
+              id="chat-input"
+              placeholder="Message XENOAI..."
+              rows="1"
+            ></textarea>
+            <button id="send-btn" class="send-btn" disabled>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 2L11 13"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M22 2L15 22L11 13L2 9L22 2Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="disclaimer">
+            XENOAI may produce inaccurate information. Verify important results.
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="chat.js"></script>
+  </body>
+</html>

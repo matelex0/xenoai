@@ -42,16 +42,16 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  /**
-   * Fetches the number of stars for a given GitHub repository and updates the star count element.
-   *
-   * @async
-   * @function fetchGitHubStars
-   * @param {string} repo - The GitHub repository in the format "owner/repo".
-   * @returns {Promise<void>} - A Promise that resolves when the star count is updated.
-   */
+/**
+ * Fetches the number of stars for a given GitHub repository and updates the star count element.
+ *
+ * @async
+ * @function fetchGitHubStars
+ * @param {string} repo - The GitHub repository in the format "owner/repo".
+ * @returns {Promise<void>} - A Promise that resolves when the star count is updated.
+ */
 
-  async function fetchGitHubStars() {
+async function fetchGitHubStars() {
     const repo = "matelex0/xenoai";
     const starElement = document.getElementById("star-count");
 
@@ -75,22 +75,22 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  fetchGitHubStars();
+fetchGitHubStars();
 
-  /**
-   * Initializes the star canvas and starts the animation.
-   *
-   * @function init
-   * @returns {void}
-   */
+/**
+ * Initializes the star canvas and starts the animation.
+ *
+ * @function init
+ * @returns {void}
+ */
 
-  const canvas = document.getElementById("star-canvas");
+const canvas = document.getElementById("star-canvas");
   const ctx = canvas.getContext("2d");
 
   let width, height;
   let stars = [];
 
-  const config = {
+      const config = {
     starCount: 500,
     speed: 0,
     maxSize: 1.5,
@@ -154,13 +154,12 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
 
-  /**
-   * Draws the star on the canvas.
-   *
-   * @function draw
-   * @returns {void}
-  */
-
+    /**
+     * Draws the star on the canvas.
+     *
+     * @function draw
+     * @returns {void}
+     */
     draw() {
       if (this.isShooting && !this.active) return;
 
@@ -199,13 +198,12 @@ document.addEventListener("DOMContentLoaded", () => {
     animate();
   }
 
-  /**
-   * Animates the star canvas by updating and drawing stars, as well as shooting stars.
-   *
-   * @function animate
-   * @returns {void}
-   */
-
+/**
+ * Animates the star canvas by updating and drawing stars, as well as shooting stars.
+ *
+ * @function animate
+ * @returns {void}
+ */
   function animate() {
     ctx.clearRect(0, 0, width, height);
 
@@ -240,13 +238,13 @@ document.addEventListener("DOMContentLoaded", () => {
     requestAnimationFrame(animate);
   }
 
-  /**
-   * Event listener for the window resize event.
-   * Resizes the canvas and updates the star positions.
-   *
-   * @function resize
-   * @returns {void}
-   */
+/**
+ * Event listener for the window resize event.
+ * Resizes the canvas and updates the star positions.
+ *
+ * @function resize
+ * @returns {void}
+ */
   window.addEventListener("resize", resize);
   init();
 });
